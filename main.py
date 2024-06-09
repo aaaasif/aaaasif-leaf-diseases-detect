@@ -13,7 +13,7 @@ label_name = ['Apple scab','Apple Black rot', 'Apple Cedar apple rust', 'Apple h
 
 st.write("""The leaf disease detection model is built using deep learning techniques, and it uses transfer learning to leverage the pre-trained knowledge of a base model. The model is trained on a dataset containing images of 33 different types of leaf diseases. For more information about the architecture, dataset, and training process, please refer to the code and documentation provided.""")              
 
-st.write("Please input only leaf Images of Apple, Cherry, Corn, Grape, Peach, Pepper, Potato, Strawberry, and Tomato. Otherwise, the model will not work perfectly.")
+st.write("Please input only leaf Images of Apple, nakib, salma, faraz, sayma, mahim, kawtar, Cherry, Corn, Grape, Peach, Pepper, Potato, Strawberry, and Tomato. Otherwise, the model will not work perfectly.")
 
 model = keras.models.load_model('Training/model/Leaf Deases(96,88).h5')
 
